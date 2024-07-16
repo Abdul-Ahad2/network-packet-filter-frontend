@@ -82,12 +82,6 @@ function Home() {
                 />
                 PCAP file
               </label>
-              <button
-                onClick={handleCaptureClick}
-                className="bg-white m-2 sm:m-3 w-40 py-3 sm:py-5"
-              >
-                Live Capture
-              </button>
             </div>
           </div>
         </div>
