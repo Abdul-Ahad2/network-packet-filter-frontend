@@ -73,14 +73,14 @@ function Home() {
               backseat.
             </p>
             <div className="flex flex-col sm:flex-row mt-6 sm:mt-10">
-              <label className="bg-white m-2 sm:m-3 relative w-40 text-center py-3 sm:py-5 cursor-pointer">
+              <label className="bg-white m-2 sm:m-3 relative w-80 text-center py-3 sm:py-5 cursor-pointer rounded-lg">
                 <input
                   type="file"
                   className="absolute inset-0 opacity-0"
                   accept=".pcap"
                   onChange={handleFileChange}
                 />
-                PCAP file
+                Upload PCAP file
               </label>
             </div>
           </div>
